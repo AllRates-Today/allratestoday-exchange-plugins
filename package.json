@@ -1,0 +1,62 @@
+{
+  "name": "@allratestoday/exchange-plugins",
+  "version": "1.0.0",
+  "description": "Exchange-rate source plugins for AllRatesToday: live mid-market rates, the daily 16:00 London reference rate and official central-bank tables, behind one plugin interface with ordered fallback. Includes a drop-in provider for edge-rates-server.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "browser": "dist/allratestoday-exchange-plugins.global.js",
+  "files": [
+    "dist",
+    "adapters"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./browser": "./dist/allratestoday-exchange-plugins.global.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "exchange-rates",
+    "exchange-rate",
+    "exchange-rate-plugins",
+    "rate-plugins",
+    "currency",
+    "forex",
+    "fx",
+    "central-bank",
+    "ecb",
+    "reference-rate",
+    "edge-rates-server",
+    "allratestoday"
+  ],
+  "author": "AllRatesToday <admin@allratestoday.com>",
+  "license": "MIT",
+  "homepage": "https://allratestoday.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/allratestoday-exchange-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/allratestoday-exchange-plugins/issues"
+  },
+  "sideEffects": [
+    "./dist/allratestoday-exchange-plugins.global.js"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
+  }
+}
