@@ -6,8 +6,8 @@
 [![Sources](https://img.shields.io/badge/official%20sources-125-0a7d3e.svg)](https://allratestoday.com/api/open/central-banks)
 
 This library exports a collection of exchange-rate source plugins for [AllRatesToday](https://allratestoday.com):
-live mid-market rates, the daily 16:00 London reference rate, and the official tables of 125 central banks and
-tax authorities. Every source implements one small `RatePlugin` interface, so you can register the ones you
+live mid-market rates, the daily 16:00 London reference rate, and the official tables of [122 central banks and 4 tax
+authorities](https://allratestoday.com/central-bank-rates-api/institutions/). Every source implements one small `RatePlugin` interface, so you can register the ones you
 want and fall through them in order. It also ships a drop-in provider for
 [edge-rates-server](./adapters/edge-rates-server/).
 
