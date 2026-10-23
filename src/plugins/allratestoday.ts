@@ -10,7 +10,7 @@ interface LiveRate {
 
 /**
  * Live mid-market rates from `GET /api/v1/rates`. Needs an API key (the free
- * tier is 300 requests, no card). Answers only undated hints; dated hints are
+ * tier needs no card). Answers only undated hints; dated hints are
  * left for the reference-rate or central-bank plugins.
  */
 export const makeAllRatesTodayPlugin = (options: PluginOptions = {}): RatePlugin => {

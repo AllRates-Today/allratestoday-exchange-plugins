@@ -17,7 +17,7 @@ Please see [src/index.ts](./src/index.ts) for the list of plugins in this repo.
 
 - **One interface, many sources** — `fetchRates(hints)` on every plugin; unanswered pairs are left out, never thrown.
 - **Keyless by default** — the reference rate and every central-bank table work without an API key.
-- **Live rates with a key** — `allratestoday` adds real-time mid-market rates (free tier: 300 requests, no card).
+- **Live rates with a key** — `allratestoday` adds real-time mid-market rates (free tier, no card).
 - **Pairs the institution never published** — inverted or crossed through its home currency, and the answer says which (`method: 'published' | 'inverse' | 'cross'`).
 - **Ordered fallback** — `makeRateEngine([...])` asks plugins in order and stops at the first answer per pair.
 - **Zero runtime dependencies**, ESM + CommonJS + a self-registering browser bundle, strict TypeScript types.
