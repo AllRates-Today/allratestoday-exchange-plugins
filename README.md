@@ -174,6 +174,7 @@ export const myBank: RatePlugin = {
 - JavaScript SDK: https://github.com/AllRates-Today/exchange-rates-api
 - MCP server for AI agents: https://github.com/AllRates-Today/mcp-server
 - edge-rates-server adapter: [adapters/edge-rates-server](./adapters/edge-rates-server/)
+- [Postman collection](https://allratestoday.com/postman/)
 
 ## 📜 License
 
