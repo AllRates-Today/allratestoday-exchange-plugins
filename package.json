@@ -1,6 +1,6 @@
 {
   "name": "@allratestoday/exchange-plugins",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Exchange-rate source plugins for AllRatesToday: live mid-market rates, the daily 16:00 London reference rate and official central-bank tables, behind one plugin interface with ordered fallback. Includes a drop-in provider for edge-rates-server.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -36,7 +36,19 @@
     "ecb",
     "reference-rate",
     "edge-rates-server",
-    "allratestoday"
+    "allratestoday",
+    "exchange rate",
+    "exchange rates",
+    "money",
+    "convert",
+    "conversion",
+    "exchange",
+    "rate",
+    "utilities",
+    "accounting",
+    "number",
+    "cart",
+    "ecommerce"
   ],
   "author": "AllRatesToday <admin@allratestoday.com>",
   "license": "MIT",
