@@ -175,6 +175,7 @@ export const myBank: RatePlugin = {
 - MCP server for AI agents: https://github.com/AllRates-Today/mcp-server
 - edge-rates-server adapter: [adapters/edge-rates-server](./adapters/edge-rates-server/)
 - [Postman collection](https://allratestoday.com/postman/)
+- [ChatGPT app](https://chatgpt.com/plugins/plugin_asdk_app_6ae1e76098f48191a285ac3f5ab7a83b) — ask ChatGPT for live and official central bank rates
 
 ## 📜 License
 
