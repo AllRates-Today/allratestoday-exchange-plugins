@@ -24,7 +24,7 @@ export const plugins = {
   allratestoday: makeAllRatesTodayPlugin,
   // Daily reference:
   referenceRate: makeReferenceRatePlugin,
-  // Official tables (125 sources):
+  // Official tables (130+ sources):
   ...centralBanks,
 };
 
